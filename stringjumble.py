@@ -1,9 +1,9 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Sam Supattapone
+Credit: none
 
-Assignment:
+Assignment: String Jumble
 
 The purpose of this challenge is to gain proficiency with 
 manipulating lists.
