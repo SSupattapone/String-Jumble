@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Sam Supattapone
-Credit: none
+Credit: I used google to get the concepts then learned them for myself.
 
 Assignment: String Jumble
 
@@ -27,7 +27,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 text = input("Please enter a string of text (the bigger the better): ")
 print(('You entered "{0}." Now jumble it:').format (text))
-a=str(text)
-print(a[::-1])
-print(" ".join(a.split()[::-1]))
-print(" ".join(x[::-1] for x in a.split()))
+string=str(text)
+print(string[::-1])
+print(" ".join(string.split()[::-1]))
+print(" ".join(x[::-1] for x in string.split()))
